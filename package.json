@@ -1,0 +1,22 @@
+{
+  "name": "serverless-lint",
+  "version": "0.1.0",
+  "description": "Prevent common mistakes in Serverless applications",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "git@github.com:paneidos/serverless-lint.git",
+  "author": "Sernin van de Krol <serninpc@paneidos.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}

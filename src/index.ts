@@ -1,0 +1,4 @@
+class ServerlessLintPlugin {
+}
+
+export = ServerlessLintPlugin;
